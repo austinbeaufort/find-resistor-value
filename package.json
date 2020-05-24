@@ -9,9 +9,6 @@
     "predeploy": "parcel build index.html --public-url /find-resistor-value",
     "deploy": "gh-pages -d dist"
   },
-  "mime": {
-    "text/x-typescript": ["ts"]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
