@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "predeploy": "del -f dist && parcel build ./src/index.ts --public-url /find-resistor-value",
+    "predeploy": "del -f dist && parcel build /index.html --public-url /find-resistor-value",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
