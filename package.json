@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "predeploy": "parcel build index.html --public-url /find-resistor-value",
+    "predeploy": "parcel build index.html",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "austinbeaufort.github.io/find-resistor-value",
   "keywords": [],
   "author": "",
   "license": "ISC",
