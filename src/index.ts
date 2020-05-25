@@ -5,7 +5,7 @@ const main = ():void => {
 }
 
 
-const processForm = (e): void => {
+const processForm = (e: any): void => {
     e.preventDefault()
     const colors: Array<string> = getFormColors(e),
           resistorMessage: string = getMessageToAppend(colors) 
